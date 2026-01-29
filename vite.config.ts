@@ -4,4 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // GitHub Pages用のbase path設定
+  // リポジトリ名に合わせて変更してください
+  base: process.env.GITHUB_ACTIONS ? '/tiktokshop-order-to-waybill/' : '/',
 })

@@ -364,6 +364,20 @@ npm run dev
 npm run build
 ```
 
+## デプロイ
+
+### GitHub Pages（自動デプロイ）
+
+`main`ブランチにpushすると、GitHub Actionsで自動的にGitHub Pagesにデプロイされます。
+
+**初回セットアップ:**
+
+1. GitHubリポジトリの Settings → Pages を開く
+2. Source を「GitHub Actions」に設定
+3. `main`ブランチにpushする
+
+デプロイ後のURL: `https://<username>.github.io/tiktokshop-order-to-waybill/`
+
 ## ライセンス
 
 MIT
